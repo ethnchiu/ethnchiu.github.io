@@ -1,43 +1,38 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Ethan Chiu",
     "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "picture": "https://github.com/ethnchiu.png",
+    "email": "chiue@hawaii.edu",
+    "phone": "808-397-6908",
+    "website": "https://ethnchiu.github.io",
+    "summary": "I am studying for a B.S. in Electrical Engineering in the Department of Electrical & Computer Engineering at the University of Hawaii. I expect to graduate in 2027.",
+    "location": { "address": "", "postalCode": "", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "github", "username": "ethnchiu", "url": "http://github.com/ethnchiu" },
+      { "network": "linkedin", "username": "ethnchiu", "url": "http://linkedin.com/in/ethnchiu" }
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Embedded Systems" },
+    { "name": "Sensors" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "Python", "C", "C++", "Zephyr", "Docker", "Arduino", "Verilog", "Java", "Javascript", "HTML", "CSS" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "MacOS", "Linux", "Git"]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Electrical Engineering (expected 2027)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2023",
       "endDate": "Present",
       "courses": [
       ]
@@ -98,17 +93,35 @@
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "Dr. Arthur R. King, Jr. Scholarship",
+      "date": "May 2023",
+      "awarder": "University Laboratory School",
+      "summary": ""
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
-    }
+      "title": "Most Outstanding Musician Award",
+      "date": "May 2023",
+      "awarder": "University Laboratory School",
+      "summary": ""
+    },
+	{
+      "title": "Kulia I Ka Nu'u Award",
+      "date": "2021 - 2023",
+      "awarder": "University Laboratory School",
+      "summary": "Awarded to students who continuously demonstrated a commitment to excellence and consistently performed with outstanding proficiency and skill in all components of ULS’s programs; awarded in math, physics and band"
+	},
+	{
+      "title": "Breakthrough Innovation Challenge Finalist",
+      "date": "Oct. 2022",
+      "awarder": "University of Hawaii at Manoa",
+      "summary": "The UH Breakthrough Innovation Challenge is an entrepreneurial competition where participants pitch their innovative business idea to a panel of judges, for a chance to win cash prizes"
+	},
+	{
+      "title": "Jetson A.I. Specialist",
+      "date": "Aug. 2022",
+      "awarder": "NVIDIA",
+      "summary": "Recognition of competency in Jetson and AI using a hands-on, project-based assessment"
+	}
   ],
   "references": [
     {
