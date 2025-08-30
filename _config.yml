@@ -5,7 +5,7 @@ url: "https://ethnchiu.github.io"
 baseurl: ""
 
 ## Specify the theme using any of the css files in css/techfolio-theme
-techfolio-theme: bitter.css
+techfolio-theme: rubik.css
 #bitter.css   default.css  lime.css     rubik.css    skyblue.css
 ## Specify the formatting for triple backquote code sections.
 rouge-theme: github.css
