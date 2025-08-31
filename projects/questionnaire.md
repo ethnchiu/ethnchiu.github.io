@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/questionnaire/questionnaire-square.jpg
+image: img/questionnaire/certificate-square.jpg
 title: "Covid Questionnaire"
 date: 2022
 published: true
@@ -13,9 +13,7 @@ summary: "I developed an automated COVID-19 questionnaire that deploys when a pe
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
+  <img width="200px" src="../img/questionnaire/questionnaire.png" class="img-thumbnail" >
 </div>
 
 The Covid Questionnaire is a small project that I created during the COVID-19 pandemic as my submission to NVIDIA's Jetson A.I. Specialist certification program. The project utilizes the SSD-MobileNet-v2 object detection model running on a Jetson Nano to automatically detect a person with a webcam, present them with a questionnaire relating to relevant behaviors, and provide them the recommended protocol to follow, along with a link to the CDC's updated Quarantine and Isolation website.
