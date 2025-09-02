@@ -13,7 +13,6 @@ summary: "A wearable device and auxiliary mobile application for measuring and r
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/wavelens/wavelens-pcb-2d.png" class="img-thumbnail" >
   <img width="200px" src="../img/wavelens/wavelens-pcb-3d.jpg" class="img-thumbnail" >
 </div>
 
