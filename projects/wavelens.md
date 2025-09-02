@@ -9,7 +9,7 @@ labels:
   - Environmental Sensing
   - C++
   - Flutter
-summary: "A wearable device and auxiliary mobile application for measuring and reporting environmental dynamics.""
+summary: "A wearable device and auxiliary mobile application for measuring and reporting environmental dynamics."
 ---
 
 <div class="text-center p-4">
