@@ -9,7 +9,7 @@ labels:
   - Computer vision
   - Jetson Nano
   - Python
-summary: "I developed an automated COVID-19 questionnaire that deploys when a person is present as my submission for the Jetson A.I. Specialist certification."
+summary: "An automated COVID-19 questionnaire that deploys when a person is detected."
 ---
 
 <div class="text-center p-4">
