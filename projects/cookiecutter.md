@@ -26,3 +26,5 @@ The following is a screenshot of one of the published libraries on PyPI:
 <div class ="text-center p-4">
     <img height="400" src="../img/cookiecutter/pypi.png">
 </div>
+
+This project taught me a lot of useful skills for Python project development: static typing, project structuring, testing, CI/CD, writing documentation, and much more.
