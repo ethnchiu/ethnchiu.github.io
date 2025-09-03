@@ -15,7 +15,8 @@
   },
   "interests": [
     { "name": "Embedded Systems" },
-    { "name": "Sensors" }
+    { "name": "Sensors" },
+	{ "name": "Signal processing"}
   ],
   "skills": [
     {
