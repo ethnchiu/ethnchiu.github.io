@@ -15,6 +15,10 @@ labels:
 
 Learning a new programming language is much like learning a new, well, language, language. I've recently started learning Typescript, which in many ways reminds me of Python, particularly when it is statically-typed. In the same way, when I was learning Japanese, many things reminded me of Chinese, such as the numbers (both in the way they're written and the way they're pronounced) and the Kanji. There are definitely historical reasons for this, just like there are probably historical reasons for Python and Typescript sharing similarities. In both Python and Typescript, types can be specified using this "variable: type" syntax, with support for unionizing the types. Additionally, both languages allow for object-oriented programming. As for their differences, Python uses whitespace to determine code blocks whereas Typescript uses curly braces. Typescript uses the less specific type "number" in contrast to Python's "float" or "int".
 
+<div class="text-center p-4">
+  <img height="100" src="../img/multilingualism/comparison.png" class="img-thumbnail" >
+</div>
+
 From a software engineering perspective, I believe that Typescript is a good programming language as it encourages static typing which is important for ensuring type safety. Although it may take a little bit more effort to learn and use than just plain Javascript, I think the benefits pay off. Specifically how Typescript warns you of type errors before runtime, allows for useful autocompletions, and improves code readability.
 
 ## Athleticism
