@@ -7,6 +7,7 @@ date: 2025
 published: true
 labels:
   - Environmental Sensing
+  - Data visualization
   - C
   - Dart
 summary: "A wearable device and auxiliary mobile application for measuring and reporting environmental dynamics."
@@ -20,7 +21,7 @@ The following is a 3D render of the printed circuit board I designed for the per
   <img width="300px" src="../img/wavelens/wavelens-pcb-3d.png" class="img-thumbnail">
 </div>
 
-Althogh the app is still in its early stages, it is coming together pretty well. Below is a screenshot of a page from which you can view nearby BLE devices (which we will eventually filter to only show our devices) and connect to a Wavelens node:
+Although the app is still in its early stages, it is coming together pretty well. Below is a screenshot of a page from which you can view nearby BLE devices (which will soon filter to only show our devices) and connect to a Wavelens node:
 
 <div class="text-center p-4">
   <figure>
@@ -28,3 +29,5 @@ Althogh the app is still in its early stages, it is coming together pretty well.
     <figcaption>Device scan screen, with the UUIDs censored.</figcaption>
   </figure>
 </div>
+
+This project has taught me a lot related to component selection, PCB design, embedded system firmware development, mobile app development, Bluetooth Low Energy, and the iterative design process.
