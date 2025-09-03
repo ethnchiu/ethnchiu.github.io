@@ -12,17 +12,19 @@ labels:
 summary: "A wearable device and auxiliary mobile application for measuring and reporting environmental dynamics."
 ---
 
+Wavelens is a project I am currently working on with a partner. The goal is to create and program a portable peripheral device capable of measuring various environmental parameters and communicating them via the Bluetooth Low Energy (BLE) protocol to a central device (a smartphone). The central device will digest, store, and visualize these data for end users through an associated app we're developing.
+
+The following is a 3D render of the printed circuit board I designed for the peripheral Wavelens device:
+
 <div class="text-center p-4">
   <img width="300px" src="../img/wavelens/wavelens-pcb-3d.png" class="img-thumbnail">
 </div>
 
-Wavelens is a project I am currently working on with a partner. The goal is to create and program a portable peripheral device capable of measuring various environmental parameters and communicating them via the Bluetooth Low Energy (BLE) protocol to a central device (a smartphone). The central device will digest, store, and visualize these data for end users through an associated app we're developing.
-
-Below is a screenshot of the screen from which you can view nearby BLE devices and connect to the Wavelens node.
+Althogh the app is still in its early stages, it is coming together pretty well. Below is a screenshot of a page from which you can view nearby BLE devices (which we will eventually filter to only show our devices) and connect to a Wavelens node:
 
 <div class="text-center p-4">
   <figure>
-    <img width="200px" src="../img/wavelens/wavelens-app-ble-scan-screen.jpeg" class="img-thumbnail">
-    <figcaption>UUIDs are blacked out, and devices will be filtered by name to only show Wavelens devices.</figcaption>
+    <img width="300px" src="../img/wavelens/wavelens-app-ble-scan-screen.jpeg" class="img-thumbnail">
+    <figcaption>Device scan screen, with the UUIDs censored.</figcaption>
   </figure>
 </div>
