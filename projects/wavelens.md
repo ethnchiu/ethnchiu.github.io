@@ -20,9 +20,7 @@ Wavelens is a project I am currently working on with a partner. The goal is to c
 
 Below is a screenshot of the screen from which you can view nearby BLE devices and connect to the Wavelens node.
 
-<div class="text-center p-4">
-  <figure>
-    <img width="200px", src="../img/wavelens/wavelens-app-ble-scan-screen.jpeg" class="img-thumbnail">
-    <figcaption>UUIDs are blacked out, and devices will be filtered by name to only show Wavelens devices.</figcaption>
-  </figure>
-</div>
+<figure>
+  <img width="200px", src="../img/wavelens/wavelens-app-ble-scan-screen.jpeg" class="img-thumbnail">
+  <figcaption>UUIDs are blacked out, and devices will be filtered by name to only show Wavelens devices.</figcaption>
+</figure>
