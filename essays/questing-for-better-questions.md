@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Questions"
+title: "Questing for Better Questions"
 # All dates must be YYYY-MM-DD format!
 date: 2025-09-10
 published: true
