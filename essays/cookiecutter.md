@@ -16,7 +16,7 @@ As someone who has experience templating and formatting Python code, I understan
 
 Additionally, I've found that adhering to style guides and using linters actually helps me learn programming languages faster. For example, when I code in Python, I often refer to the [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html). By having this standard to reference, I spend less time questioning whether I am using the correct convention and spend more time coding.
 
-<img height="400px" src="../img/cookiecutter-essay/eslint-errors.png", class="rounded float-end ps-4">
+<img height="400px" src="../img/cookiecutter-essay/eslint-errors.png" class="rounded float-end ps-4">
 
 In [ICS 314](https://courses.ics.hawaii.edu/ics314f25/index.html), I'm currently learning about [ESLint](https://eslint.org/), a formatter for Javascript which also provides support for the latest versions of Typescript. In this class, we adhere to an [extension](https://github.com/iamturns/eslint-config-airbnb-typescript) of the [Airbnb Javascript Style Guide](https://github.com/airbnb/javascript) that configures ESLint to support Typescript. My first impression of linting Typescript is that it reminds me a lot of linting Python. In both cases, there are strict rules for whitespaces, line lengths, unused variables, and more. Although it can be painful having to pick through each error that ESLint throws, especially under the time pressure of WODs (timed coding quizzes), I've found that it really helps to improve the readability and consistency of my code, which is arguably one of the most important aspects of a program, especially when working with a team.
 
