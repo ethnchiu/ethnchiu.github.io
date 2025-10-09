@@ -27,7 +27,7 @@ Recently, I utilized Bootstrap 5 to recreate the [Chess.com](https://www.chess.c
         </div>
         <div class="col">
             <p>Recreation:</p>
-            <img height="500px" src="../img/bootstrap-bootcamp/chess-recreation.png" class="rounded float-end py-4 px-4">
+            <img height="500px" src="../img/bootstrap-bootcamp/chess-recreation.png" class="rounded">
         </div>
     </div>
 </div>
