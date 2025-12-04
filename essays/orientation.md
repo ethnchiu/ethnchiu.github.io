@@ -9,18 +9,16 @@ labels:
   - Design Patterns
 ---
 
-## P Pa Pat Patte Patterns
-
 <img height="200px" src="../img/orientation/einstein-tile.png" class="rounded float-end ps-4">
+
+## P Pa Pat Patte Patterns
 
 The einstein tile, as pictured to the right, is a deceptively ordinary-looking 13-sided shape. However, if you went and printed out a hundred, a thousand, even a trillion of them, laid them out, and fit them together like a puzzle, you'd discover something amazing: the patterns they form would never repeat.
 
 
 This is because the einstein tile is a one-shape solution to the aperiodic tiling problem; in other words, it could fill an infinitely large plane without ever creating a repeating pattern. Fun fact: it's fittingly named not after the German scientist, but rather after the German words *ein Stein*, or "one stone".
 
-<div class="justify-content-center">
-  <img height="400px" src="../img/orientation/einstein-pattern.jpeg" class="rounded">
-</div>
+<img height="400px" src="../img/orientation/einstein-pattern.jpeg" class="rounded float-start pe-4">
 
 ## Designer
 
