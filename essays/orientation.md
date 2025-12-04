@@ -18,7 +18,7 @@ The einstein tile, as pictured to the right, is a deceptively ordinary-looking 1
 
 This is because the einstein tile is a one-shape solution to the aperiodic tiling problem; in other words, it could fill an infinitely large plane without ever creating a repeating pattern. Fun fact: it's fittingly named not after the German scientist, but rather after the German words *ein Stein*, or "one stone".
 
-<img height="400px" src="../img/orientation/einstein-pattern.jpeg" class="rounded float-start pe-4">
+<img height="350px" src="../img/orientation/einstein-pattern.jpeg" class="rounded float-start pe-4">
 
 ## Designer
 
