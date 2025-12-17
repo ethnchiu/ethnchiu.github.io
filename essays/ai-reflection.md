@@ -63,11 +63,11 @@ Although I occasionally turned to LLMs to help clarify some coding questions, I 
 
 12. Documenting code
 
-        I did not use AI to document code since I wanted to practice my documentation skills.
+    I did not use AI to document code since I wanted to practice my documentation skills.
 
 13. Quality assurance e.g. “What’s wrong with this code here” or “Fix the ESLint errors in here”
 
-I did not use AI for quality assurance since any errors could be debugged by reading the console or running the linting program.
+    I did not use AI for quality assurance since any errors could be debugged by reading the console or running the linting program.
 
 14. Other uses in ICS 314 not listed
 
