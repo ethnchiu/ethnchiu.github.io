@@ -10,6 +10,8 @@ labels:
   - Stack Overflow
 ---
 
+<img height="300px" src="https://epe.brightspotcdn.com/3f/0b/e0bfc59be64d5864b62fc4932ac6/question-mark-tumisu-thumb-640x423-16208.jpg" class="rounded float-end ps-4">
+
 ## Questions vs. Answers
 
 *"It is not the answer that enlightens, but the question."*
