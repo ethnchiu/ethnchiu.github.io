@@ -4,7 +4,7 @@ type: essay
 title: "Understanding"
 # All dates must be YYYY-MM-DD format!
 date: 2025-08-26
-published: true
+published: false
 labels:
   - Software Engineering
   - Goals
