@@ -4,7 +4,7 @@ type: project
 image: ../img/questionnaire/certificate-square.jpg
 title: "Covid Questionnaire"
 date: 2022
-published: true
+published: false
 labels:
   - Computer vision
   - Jetson Nano
