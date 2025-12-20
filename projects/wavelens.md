@@ -28,9 +28,9 @@ I served as both the electrical subsystem lead and software subsystem lead, over
 
 On the software side, I led development of the iOS mobile application using Flutter. The app connects to device nodes over BLE, visualizes sensor data through time-series plots and geographic heat maps, and stores data both locally and remotely. Local persistence was implemented using Drift, with periodic synchronization to a Supabase backend. 
 
-<div class ="d-flex justify-content-center gap-4 p-4">
-    <img height="300px" src="../img/wavelens/home.png">
-    <img height="300px" src="../img/wavelens/heatmap.png">
+<div class ="float-start d-flex justify-content-center gap-4 p-4">
+    <img height="400px" src="../img/wavelens/home.png">
+    <img height="400px" src="../img/wavelens/heatmap.png">
 </div>
 
 ## Conclusion
