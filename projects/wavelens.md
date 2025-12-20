@@ -1,33 +1,38 @@
 ---
 layout: project
 type: project
-image: ../img/wavelens/wavelens-schematic-square.png
+image: ../img/wavelens/schematic-square.png
 title: "Wavelens"
 date: 2025
 published: true
 labels:
   - Environmental Sensing
-  - Data visualization
   - C
+  - Zephyr
   - Dart
+  - Flutter
 summary: "A wearable device and auxiliary mobile application for measuring and reporting environmental dynamics."
 ---
 
-Wavelens is a project I am currently working on with a partner. The goal is to create and program a portable peripheral device capable of measuring various environmental parameters and communicating them via the Bluetooth Low Energy (BLE) protocol to a central device (a smartphone). The central device will digest, store, and visualize these data for end users through an associated app we're developing.
+## Introduction
 
-The following is a 3D render of the printed circuit board I designed for the peripheral Wavelens device:
+WaveLens is a portable environmental monitoring system designed to measure ultraviolet (UV) exposure, air quality, temperature, and humidity in real time. The motivation behind this project is the growing public health risk associated with prolonged exposure to UV radiation, poor air quality, and other extreme environmental conditions, particularly in outdoor settings. The system pairs a compact sensing device with a mobile application that enables real-time visualization and long-term data storage. Together, these components provide an accessible and affordable approach to environmental data collection that can support personal awareness and future public health decision-making.
 
-<div class="text-center p-4">
-  <img width="300px" src="../img/wavelens/wavelens-pcb.png" class="img-thumbnail">
+<div class ="rounded float-end p-4">
+    <img height="200" src="../img/wavelens/pcb.png">
 </div>
 
-Although the app is still in its early stages, it is coming together pretty well. Below is a screenshot of a page from which you can view nearby BLE devices (which will soon filter to only show our devices) and connect to a Wavelens node:
+## Primary Contributions
 
-<div class="text-center p-4">
-  <figure>
-    <img width="300px" src="../img/wavelens/wavelens-app-ble-scan-screen.jpeg" class="img-thumbnail">
-    <figcaption>Device scan screen, with the UUIDs censored.</figcaption>
-  </figure>
+I served as both the electrical subsystem lead and software subsystem lead, overseeing the end-to-end design of the hardware and mobile application. On the hardware side, I designed a custom two-layer PCB featuring a Nordic BMD-340 system-on-module, a BME680 environmental sensor, and a LTR-390 UV sensor, all powered by a rechargeable lithium-ion battery with USB-C charging. I developed the device's firmware using the nRF Connect SDK and Zephyr RTOS, with BME680 data acquisition handled through Bosch’s BSEC library. I implemented Bluetooth Low Energy (BLE) peripheral functionality, user interaction via a pushbutton, and power management features such as sleep mode.
+
+On the software side, I led development of the iOS mobile application using Flutter. The app connects to device nodes over BLE, visualizes sensor data through time-series plots and geographic heat maps, and stores data both locally and remotely. Local persistence was implemented using Drift, with periodic synchronization to a Supabase backend. 
+
+<div class ="d-flex rounded p-4">
+    <img height="200" src="../img/wavelens/home.png">
+    <img height="200" src="../img/wavelens/heatmap.png">
 </div>
 
-This project has taught me a lot related to component selection, PCB design, embedded system firmware development, mobile app development, Bluetooth Low Energy, and the iterative design process.
+## Conclusion
+
+Through this project, I gained a lot of valuable experience in embedded systems design, BLE communication, full-stack mobile development, and cross-disciplinary system integration. The project taught me how to balance hardware constraints, firmware reliability, and user-facing software design when building a real-world sensing platform with a limited timeline.
