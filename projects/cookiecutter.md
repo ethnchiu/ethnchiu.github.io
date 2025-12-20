@@ -8,7 +8,7 @@ published: true
 labels:
   - Templating
   - Python
-summary: "A Cookiecutter template for the Nanosystems Lab's lab automation Python packages."
+summary: "A Cookiecutter template for the Nanosystems Lab's Python packages."
 ---
 
 <div class ="rounded float-start text-center p-4">
