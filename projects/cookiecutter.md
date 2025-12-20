@@ -6,25 +6,21 @@ title: "Nanosystems Lab Cookiecutter"
 date: 2024
 published: true
 labels:
-  - Cookiecutter
-  - Github Actions
-  - Poetry
+  - Templating
   - Python
-summary: "A Cookiecutter template for the Nanosystems Lab's Python packages."
+summary: "A Cookiecutter template for the Nanosystems Lab's lab automation Python packages."
 ---
 
-The Nanosystems Lab Cookiecutter is a template that I developed for my ENGR 296 vertically integrated project (VIP). The template uses the [Cookiecutter](https://github.com/cookiecutter/cookiecutter) command-line utility in conjunction with packaging and dependency management ([Poetry](https://python-poetry.org/)), testing ([Nox](https://nox.thea.codes/en/stable/) and [Pytest](https://docs.pytest.org/en/stable/)), CI/CD ([Github Actions](https://github.com/features/actions)), documentation ([Sphinx](https://www.sphinx-doc.org/en/master/)) and publishing tools ([PyPI](https://pypi.org/)), among others, to accelerate the process of creating—and deploying broadly—Python packages developed by and for the Nanosystems Laboratory in the Department of Mechanical Engineering at the University of Hawaii at Manoa.
-
-<div class ="text-center p-4">
+<div class ="rounded float-start text-center p-4">
     <img height="300" src="../img/cookiecutter/github.png">
 </div>
 
-After realizing the template, I applied it to several of the lab's existing lab automation Python packages, all of which are now published on the PyPI site and available for widespread use. Part of this process also involved writing unit tests for each package to validate their functionality.
+This project focused on developing and deploying a standardized Python library template to improve software quality, consistency, and efficiency within the Nanosystems Laboratory at the University of Hawaii at Manoa. The lab relies heavily on Python-based software libraries for lab automation and experimental control, but prior workflows suffered from inconsistent project structures, manual setup overhead, and error-prone deployment processes. To address this, I customized and extended the [Hypermodern Python Cookiecutter](https://github.com/cjolowicz/cookiecutter-hypermodern-python) framework into a lab-specific template that automatically generates well-structured Python projects with modern best practices, including testing, documentation, and CI/CD pipelines.
 
-The following is a screenshot of one of the published libraries on PyPI:
-
-<div class ="text-center p-4">
+<div class ="rounded float-end text-center p-4">
     <img height="400" src="../img/cookiecutter/pypi.png">
 </div>
 
-This project taught me a lot of useful skills for Python project development: static typing, project structuring, testing, CI/CD, writing documentation, and much more.
+My primary contribution was evaluating existing templating tools, selecting the feature-rich Hypermodern Python Cookiecutter as the template foundation, and modifying it to align with the lab’s requirements. This included expanding Python version support to 3.9–3.12, replacing third-party CLI tooling with Python’s built-in argparse module for improved compatibility, and adding dynamic configuration options during project generation. I validated the template by migrating several of the lab's existing automation libraries to the new structure, writing unit tests, and ensuring successful publication to PyPI. I also created a user guide to simplify adoption by lab members with varying levels of Python experience.
+
+Through this project, I gained practical experience with Python packaging ecosystems ([Poetry](https://python-poetry.org/), [PyPI](https://pypi.org/)), testing ([Nox](https://nox.thea.codes/en/stable/)), CI/CD automation ([Github Actions](https://github.com/features/actions)), and documentation ([Sphinx](https://www.sphinx-doc.org/en/master/)). Beyond technical skills, the project taught me how to balance usability and features, document workflows, and gather user feedback. to balance feature richness with usability, document complex workflows clearly, and gather user feedback to iteratively improve tooling. It reinforced the importance of standardization and automation in research software environments, particularly when multiple contributors and long-term maintenance are involved.
