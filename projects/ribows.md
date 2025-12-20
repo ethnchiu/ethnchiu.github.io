@@ -12,7 +12,9 @@ labels:
 summary: "A website to easily search for, discover, and join Registered Independent Organizations (RIOs) at UH Manoa."
 ---
 
-<img height="400px" src="../img/ribows/home.png" class="rounded mx-auto">
+<div class="d-flex justify-content-center">
+  <img height="400px" src="../img/ribows/home.png" class="rounded">
+</div>
 
 ## Introduction
 
