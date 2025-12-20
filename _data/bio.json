@@ -16,16 +16,28 @@
   "interests": [
     { "name": "Embedded Systems" },
     { "name": "Sensors" },
-	{ "name": "Signal processing"}
+	  { "name": "Signal processing"}
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
-      "keywords": [ "Python", "C", "C++", "Zephyr", "Docker", "PostgreSQL", "Verilog", "Java", "Matlab", "Javascript", "HTML", "CSS" ]
+      "name": "Programming Languages",
+      "keywords": [ "C", "C++", "Python", "Matlab", "Java", "SQL", "Javascript", "Typescript", "Dart" ]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Linux", "Git"]
+      "name": "Embedded Systems & Firmware",
+      "keywords": [ "Zephyr RTOS", "Arduino", "PlatformIO", "BLE", "Communication (I2C, SPI, UART)" ]
+    },
+    {
+      "name": "Hardware & Electrical",
+      "keywords": [ "Schematic Capture", "PCB design (KiCad)", "Soldering (SMD, through-hole)", "Hardware Bring-up & Testing" ]
+    },
+    {
+      "name": "Software",
+      "keywords": [ "Flutter", "React", "Bootstrap", "HTML", "CSS", "SQL", "PostgreSQL", "Grafana" ]
+    },
+    {
+      "name": "Toolsets & Development Environment",
+      "keywords": [ "Git", "Docker", "Linux", "Vim" ]
     }
   ],
   "education": [
@@ -33,6 +45,15 @@
       "institution": "University of Hawaii, Honolulu, HI",
       "area": "Electrical Engineering (expected 2027)",
       "studyType": "B.S.",
+      "startDate": "2023",
+      "endDate": "Present",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (expected 2027)",
+      "studyType": "Minor",
       "startDate": "2023",
       "endDate": "Present",
       "courses": [
@@ -48,8 +69,11 @@
       "endDate": "Present",
       "summary": "",
       "highlights": [
-        "Design custom printed circuit boards to improve sensor interfacing and prototyping capabilities",
-		"Develop a real-time sensor data collection, storage, and visualization pipeline implemented on a single board computer utilizing Python, Docker, Fluent-Bit, PostgreSQL, Loki, Grafana, and more"
+        "Design and integrate sensing systems, developing software, firmware, and hardware interfaces for multiple environmental sensors",
+        "Developed a real-time data collection, storage, and visualization pipeline for deployment on single-board computer (SBC) platforms using Python, Docker, Fluent Bit, PostgreSQL, Loki, Grafana, and other related tools",
+        "Created custom printed circuit boards to streamline integration between sensors and SBCs, accelerating prototyping workflows",
+        "Designed custom lightweight Docker images for high-frequency sensor data acquisition, reducing setup overhead and improving portability across SBC platforms",
+        "Implemented embedded Linux hardware configuration mechanisms (device tree overlays and udev rules) to modify UART baud rates, adjust I2C clock frequencies, and enable a PPS GPIO to maintain sub-microsecond timing accuracy for an on-device NTP server"
       ]
     },
     {
@@ -60,7 +84,8 @@
       "endDate": "2024-08-15",
       "summary": "",
       "highlights": [
-        "Developed firmware for reconfigurable wireless sensor packages that collect positional and environmental data"
+        "Developed embedded firmware in the Arduino environment for reconfigurable wireless sensor packages that collect, store, and transmit positional and environmental data",
+        "Implemented point-to-point radio networking to enable multi-node wireless communication with a centralized ground station, a real-time operating system (FreeRTOS) to schedule concurrent tasks, and Google’s Protocol Buffers format for efficient data serialization and transmission"
       ]
     }
   ],
@@ -73,11 +98,18 @@
       "endDate": "2024-12-01",
       "summary": "",
       "highlights": [
-        "Developed, tested, and deployed a reusable template for use across multiple existing Python libraries that provide control over lab automation equipment"
+        "Developed, tested, and deployed a reusable template for use across multiple existing Python libraries that provide control over lab automation equipment",
+        "Utilized the Cookiecutter command-line utility with packaging and dependency management (Poetry), testing (Nox and Pytest), CI/CD (Github Actions), documentation (Sphinx) and publishing tools (PyPI), among others"
       ]
     }
   ],
   "awards": [
+    {
+      "title": "nRF Connect SDK Fundamentals",
+      "date": "June 2025",
+      "awarder": "Nordic Semiconductor",
+      "summary": ""
+    },
     {
       "title": "Dr. Arthur R. King, Jr. Scholarship",
       "date": "May 2023",
