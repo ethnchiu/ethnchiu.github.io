@@ -18,8 +18,8 @@ summary: "A wearable device and auxiliary mobile application for measuring and r
 
 WaveLens is a portable environmental monitoring system designed to measure ultraviolet (UV) exposure, air quality, temperature, and humidity in real time. The motivation behind this project is the growing public health risk associated with prolonged exposure to UV radiation, poor air quality, and other extreme environmental conditions, particularly in outdoor settings. The system pairs a compact sensing device with a mobile application that enables real-time visualization and long-term data storage. Together, these components provide an accessible and affordable approach to environmental data collection that can support personal awareness and future public health decision-making.
 
-<div class ="rounded float-end p-4">
-    <img height="200" src="../img/wavelens/pcb.png">
+<div class ="float-end ps-4">
+    <img height="300px" src="../img/wavelens/pcb.png" class="rounded">
 </div>
 
 ## Primary Contributions
@@ -28,9 +28,9 @@ I served as both the electrical subsystem lead and software subsystem lead, over
 
 On the software side, I led development of the iOS mobile application using Flutter. The app connects to device nodes over BLE, visualizes sensor data through time-series plots and geographic heat maps, and stores data both locally and remotely. Local persistence was implemented using Drift, with periodic synchronization to a Supabase backend. 
 
-<div class ="d-flex rounded p-4">
-    <img height="200" src="../img/wavelens/home.png">
-    <img height="200" src="../img/wavelens/heatmap.png">
+<div class ="d-flex justify-content-center gap-4 p-4">
+    <img height="300px" src="../img/wavelens/home.png">
+    <img height="300px" src="../img/wavelens/heatmap.png">
 </div>
 
 ## Conclusion
