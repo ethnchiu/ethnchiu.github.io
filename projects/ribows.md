@@ -12,13 +12,13 @@ labels:
 summary: "A website to easily search for, discover, and join Registered Independent Organizations (RIOs) at UH Manoa."
 ---
 
-<img height="400px" src="../img/ribows/home.png" class="rounded ps-4">
+<img height="400px" src="../img/ribows/home.png" class="rounded mx-auto">
 
 ## Introduction
 
 [RIBows](https://ri-bows.vercel.app/) is a website that helps University of Hawaiʻi at Mānoa (UHM) students search for, discover, and join Registered Independent Organizations (RIOs). The site supports both exploration and specific searching: users can browse trending organizations, filter by interests and keywords, and bookmark RIOs for quick access later. When a student finds an RIO they want to join, the "Contact" button allows them to quickly send an application directly to the RIO administrator. The overarching goal of the project was to reduce the barrier of finding RIOs—which was originally through a [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1vK_ixq3a86uXjHXy9oNnyYHwAvyU9smNPKuJU6OYd-Q/edit?gid=1696807341#gid=1696807341)—and make RIO information more accessible and consistently up to date.
 
-<img height="300px" src="../img/ribows/signup.png" class="float-end rounded ps-4">
+<img height="300px" src="../img/ribows/signup.png" class="float-end rounded p-4">
 
 ## Primary Contributions
 
