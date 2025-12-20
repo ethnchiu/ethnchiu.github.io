@@ -26,7 +26,7 @@ WaveLens is a portable environmental monitoring system designed to measure ultra
 
 I served as both the electrical subsystem lead and software subsystem lead, overseeing the end-to-end design of the hardware and mobile application. On the hardware side, I designed a custom two-layer PCB featuring a Nordic BMD-340 system-on-module, a BME680 environmental sensor, and a LTR-390 UV sensor, all powered by a rechargeable lithium-ion battery with USB-C charging. I developed the device's firmware using the nRF Connect SDK and Zephyr RTOS, with BME680 data acquisition handled through Bosch’s BSEC library. I implemented Bluetooth Low Energy (BLE) peripheral functionality, user interaction via a pushbutton, and power management features such as sleep mode.
 
-<div class ="float-start d-flex justify-content-center gap-4 pe-4">
+<div class ="float-start d-flex justify-content-center gap-4 pe-4 pb-4">
     <img height="300px" src="../img/wavelens/home.png">
     <img height="300px" src="../img/wavelens/heatmap.png">
 </div>
