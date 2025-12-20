@@ -11,17 +11,13 @@ labels:
 summary: "A Cookiecutter template for the Nanosystems Lab's Python packages."
 ---
 
-<div class ="rounded float-end p-4">
-    <img height="300" src="../img/cookiecutter/github.png">
-</div>
+<img height="300px" src="../img/cookiecutter/github.png" class="rounded float-end ps-4">
 
 ## Introduction
 
 This project focused on developing and deploying a standardized Python library template to improve software quality, consistency, and efficiency within the Nanosystems Laboratory at the University of Hawaii at Manoa. The lab relies heavily on Python-based software libraries for lab automation and experimental control, but prior workflows suffered from inconsistent project structures, manual setup overhead, and error-prone deployment processes. To address this, I customized and extended the [Hypermodern Python Cookiecutter](https://github.com/cjolowicz/cookiecutter-hypermodern-python) framework into a lab-specific template that automatically generates well-structured Python projects with modern best practices, including testing, documentation, and CI/CD pipelines.
 
-<div class ="float-start p-4">
-    <img height="300" src="../img/cookiecutter/pypi.png">
-</div>
+<img height="300px" src="../img/cookiecutter/pypi.png" class="rounded float-start ps-4">
 
 ## Primary Contribution
 
